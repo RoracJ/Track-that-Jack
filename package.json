@@ -1,0 +1,19 @@
+{
+  "name": "track-that-jack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "cd server && npm run seed",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "start": "npm run npm run server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.6",
+    "pg": "^8.13.1"
+  }
+}
